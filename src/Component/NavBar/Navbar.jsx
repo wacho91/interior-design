@@ -29,9 +29,12 @@ const NavLinks = [
 
 const Navbar = () => {
   return (
-    <div className="container py-4 flex justify-between">
+    <div className="container py-4 flex justify-between items-center">
         {/*Logo Section*/}
-        <img src={Logo} alt="Logo" className="w-12"/>
+        <div className="flex items-center gap-3">
+            <img src={Logo} alt="Logo" className="w-10"/>
+            <span className="text-2xl font-bold">Interior</span>
+        </div>
         {/*Link Section*/}
         <div>
             {
