@@ -2,8 +2,11 @@
 
 const Navbar = () => {
   return (
-    <div>
-      Navbar Component
+    <div className="container">
+        {/*Logo Section*/}
+        
+        {/*Link Section*/}
+        {/*Button Section*/}
     </div>
   )
 }
