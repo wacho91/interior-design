@@ -49,9 +49,7 @@ const Navbar = () => {
         </div>
         {/*Button Section*/}
         <div>
-            <button className="text-sm lg:text-base border-[1px] border-black px-4 py-2 
-                shadow-[5px_5px_0px_0px] hover:bg-black hover:text-white duration-300"
-            >
+            <button className="primary-btn">
                 Try For Free
             </button>
         </div>
