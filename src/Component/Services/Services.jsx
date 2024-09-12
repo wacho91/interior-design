@@ -40,10 +40,23 @@ const ServiceCard = [
 const Services = () => {
   return (
     <div>
-        <div className="container">
+        <div className="container py-20">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                 {/*Card Section*/}
-
+                {
+                    ServiceCard.map((card) => {
+                        return (
+                            <div key={card.id} className="space-y-4 border-[1px] border-black/30 
+                                p-6 hover:bg-black hover:text-white hover:shadow-[7px_7px_0px_0px_#6c6c6c] duration-300"
+                            >
+                                <span className="inline-block text-xl border-[1px] border-black rounded-full hover:border-white hover:bg-white hover:text-black p-4">{card.icon}</span>
+                                <p className="text-2xl font-bold font-serif">{card.title}</p>
+                                <p className="text-gray-400 text-xs">{card.description}</p>
+                                <a href={card.link} className="inline-block border-b border-black">Learn More</a>
+                            </div>
+                        )
+                    })
+                }
             </div>
         </div>
     </div>
