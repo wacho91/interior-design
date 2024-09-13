@@ -1,5 +1,5 @@
 
-import Banner1 from "../../assets/banner.png"
+import Banner1 from "../../assets/banner2.png"
 
 const Banner2 = () => {
   return (
