@@ -9,7 +9,7 @@ const Banner2 = () => {
                 {/*Text Section*/}
                 <div className="space-y-5 flex justify-center flex-col">
                     <h1 className="text-4xl font-bold font-serif">Simple way to make stylish living room</h1>
-                    <p className="text-gray-500 text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+                    <p className="text-gray-500 text-sm leading-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
                         earum accusantium tempore nam adipisicing elit. Suscipit earum
                         accusantium tempore nam aliquid{" "}
                     </p>
