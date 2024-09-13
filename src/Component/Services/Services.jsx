@@ -41,6 +41,15 @@ const Services = () => {
   return (
     <div>
         <div className="container py-20">
+            {/*Heading Section*/}
+            <div className="space-y-2 text-center max-w-[350px] mx-auto mb-8">
+                <h1 className="text-3xl font-bold font-serif">
+                    What The Provide
+                </h1>
+                <p className="text-gray-500 text-sm">
+                    Bring your dream home to life with one-on-one design help & picked products
+                </p>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
                 {/*Card Section*/}
                 {
