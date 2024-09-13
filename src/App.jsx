@@ -1,4 +1,5 @@
 import Banner from "./Component/Banner/Banner"
+import Banner2 from "./Component/Banner/Banner2"
 import Brand from "./Component/Brand/Brand"
 import Hero from "./Component/Hero/Hero"
 import Navbar from "./Component/NavBar/Navbar"
@@ -14,6 +15,7 @@ function App() {
       <Brand />
       <Services />
       <Banner />
+      <Banner2 />
     </main>
     
   )
