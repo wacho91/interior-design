@@ -29,19 +29,41 @@ const TestimonialData = [
 
 const Testimonial = () => {
   return (
-    <div className="container">
+    <div className="py-14">
         {/*Header Text*/}
-        <div className="space-y-2 text-center max-w-[350px] mx-auto mb-8">
-            <h1 className="text-3xl font-bold font-serif">
+        <div className="space-y-4 text-center max-w-[550px] mx-auto mb-8">
+            <h1 className="text-4xl font-bold font-serif">
                 Words from our coustomers
             </h1>
-            <p className="text-gray-500 text-sm">
+            <p className="text-gray-500 text-sm max-w-[350px] mx-auto">
                 Bring your dream home to life with one-on-one design help & hand
                 picked products.
             </p>
         </div>
         {/* tesitomonial cards */}
-
+        <div className="bg-black p-12">
+            <div className="container grid grid-cols-1 md:grid-cols-3 gap-6">
+                {TestimonialData.map((card) => {
+                    return (
+                        <div key={card.id} className="border-[1px] border-gray-500 p-5 text-white group hover:bg-white duration-300  cursor-pointer">
+                            {/*Upper Section*/}
+                            <div className="flex flex-row items-center gap-3">
+                                <img src={card.img} alt="image" className="w-[60px] rounded-full"/>
+                                <div>
+                                    <p className="text-sm font-bold group-hover:text-black">{card.name}</p>
+                                    <p className="text-gray-400 text-xs group-hover:text-black">{card.designation}</p>
+                                    <div className="text-xs mt-2">⭐⭐⭐⭐⭐</div>
+                                </div>
+                            </div>
+                            {/*Bottom Section*/}
+                            <div className="mt-5 border-t-2 border-gray-500/40 pt-5">
+                                <p className="text-sm text-gray-300 group-hover:text-black duration-300">{card.text}</p>
+                            </div>
+                        </div>
+                    )
+                })}
+            </div>
+        </div>
     </div>
   )
 }
