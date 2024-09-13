@@ -8,7 +8,7 @@ const Banner2 = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                 {/*Text Section*/}
                 <div className="space-y-5 flex justify-center flex-col">
-                    <h1 className="text-5xl font-bold">Simple way to make stylish living room</h1>
+                    <h1 className="text-4xl font-bold font-serif">Simple way to make stylish living room</h1>
                     <p className="text-gray-500 text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
                         earum accusantium tempore nam adipisicing elit. Suscipit earum
                         accusantium tempore nam aliquid{" "}
@@ -28,7 +28,11 @@ const Banner2 = () => {
                         </div>
                     </div>
                     <div>
-                        <button className="primary-btn bg-black text-white hover:bg-white hover:text-black shadow-[5px_5px_0px_0px_#6c6c6c] hover:shadow-[5px_5px_0px_0px_#090808]">Contact Us</button>
+                        <button className="primary-btn bg-black text-white hover:bg-white
+                         hover:text-black shadow-[5px_5px_0px_0px_#6c6c6c] hover:shadow-[5px_5px_0px_0px_#090808]"
+                        >   
+                            Contact Us
+                        </button>
                     </div>
                 </div>
                 {/*Image Section*/}
