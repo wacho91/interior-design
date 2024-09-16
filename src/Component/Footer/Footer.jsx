@@ -10,8 +10,8 @@ const Footer = () => {
             {/*Company Information*/}
             <div className="space-y-4 font-semibold">
                 <div className="flex items-center space-x-3">
-                    <img src={Logo} alt="" className="w-10"/>
-                    <p className="text-2xl font-bold">Interior</p>
+                    <img src={Logo} alt="" className="w-6"/>
+                    <p className="text-xl font-bold">Interior</p>
                 </div>
                 <p>Greater Noida, Uttar Padresh, India</p>
                 <p>@ 2024 Interior All rights reserved</p>
