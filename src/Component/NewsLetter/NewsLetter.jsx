@@ -12,7 +12,7 @@ const NewsLetter = () => {
       {/*Form Here*/}
       <div className='!mt-10 flex justify-center'>
         <input type="text" placeholder='Enter Your Email' className='px-4 py-4 border-[1px] border-black'/>
-        <button className='bg-black text-white px-6 py-4'>Subscribe</button>
+        <button className='bg-black text-white px-6 py-4 uppercase'>Subscribe</button>
       </div>
     </div>
   )
