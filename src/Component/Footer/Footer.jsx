@@ -55,8 +55,8 @@ const Footer = () => {
             </div>
             {/*Contact Section*/}
             <div className="space-y-4">
-                <h1 className="text-xl font-semibold">Contact Us</h1>
-                <ul className="text-base space-y-4 font-semibold">
+                <h1 className="text-xl font-semibold ml-6">Contact Us</h1>
+                <ul className="text-base space-y-4 font-semibold ml-6">
                     <li className="flex items-center space-x-3">
                         <FaPhone />
                         <a href="#">+91 123456789</a>
