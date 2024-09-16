@@ -3,6 +3,7 @@ import Banner2 from "./Component/Banner/Banner2"
 import Brand from "./Component/Brand/Brand"
 import Hero from "./Component/Hero/Hero"
 import Navbar from "./Component/NavBar/Navbar"
+import NewsLetter from "./Component/NewsLetter/NewsLetter"
 import Services from "./Component/Services/Services"
 import Testimonial from "./Component/Testimonial/Testimonial"
 
@@ -18,6 +19,7 @@ function App() {
       <Banner />
       <Banner2 />
       <Testimonial />
+      <NewsLetter />
     </main>
     
   )
